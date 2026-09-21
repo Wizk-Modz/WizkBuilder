@@ -1,7 +1,7 @@
 # Universal builder for GitHub Actions (GHCR: ghcr.io/wizk-modz/builder)
 # Targets: base, cpp-py, full (no .NET)
 ARG UBUNTU_VERSION=26.04
-ARG NODE_MAJOR=22
+ARG NODE_MAJOR=24
 ARG GO_VERSION=1.23.12
 ARG DOCKER_VERSION=27.3.1
 ARG BUILDX_VERSION=v0.17.1
